@@ -1,0 +1,117 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body {
+	padding: 0% 2.9% 2.9% 2.9%;
+}
+.bg{
+	height: 100%;
+	width: 100%;
+	background-color: #006837;
+    padding: 0.38%;
+}
+.box{
+	height: 100%;
+	width: 100%;
+	background-color: #56836F;
+}
+.top{
+	width: 100%;
+	text-align: center;
+	padding-top: 0.9%;
+	padding-bottom: 0.9%;
+}
+h1{
+    font-family: 'Myriad Pro Regular';
+    font-size: 1.2vw;
+    color: #000000;
+}
+header{
+	padding-top: 4%;
+}
+nav {
+	display: inline-block;
+	padding-left: 10%;
+	width: 80%;
+}
+ul{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 3.55vw;
+	padding-left: 6.2%;
+}
+
+ul a{
+	color: #FFFFFF;
+	font-family: 'Myriad Pro Regular';
+}
+.image {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	width: 15.5%;
+	margin-right: 4.3%;
+}
+header:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.box1{
+	width: 48.3%;
+	height:51%;
+	background-color: #FCEE21;
+	display: inline-block;
+	float: left;
+	margin: 5% 0 0 5%;
+	padding:1.8%;
+}
+
+.box2{
+	width: 41%;
+	height:51%;
+	background-color: #FCEE21;
+	display: inline-block;
+	float: right;
+	margin: 5% 4.3% 0 0;
+    padding:1.8%;
+}
+.box1 img{
+	float: right;
+	display: inline-block;
+	width: 28.627%;
+    padding-left: 2%;
+}
+.box1-box {
+	display: inline-block;
+	float: left;
+	font-family: 'SegoePro-Regular';
+	font-size: 1.2vw;
+	text-transform:uppercase;
+}
+.box1-box p:last-child{
+	margin-top: 2%;
+}
+.box2 img{
+    float: left;
+	display: inline-block;
+	width: 35%;
+	padding-right: 3%;
+}
+.box2-box{
+	display: inline-block;
+	float:right;
+	font-family: 'SegoePro-Regular';
+	font-size: 1.2vw;
+	text-transform:uppercase;
+	color: #006837;
+}
+.box2-box p:last-child{
+	margin-top: 2.38%;
+}
+article:after{
+	content: "";
+	clear: both;
+	display: block;
+}
